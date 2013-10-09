@@ -13,11 +13,14 @@ var FoodTrucks = Backbone.Collection.extend({
       $.each(trucksdata, function() {
         var truckObject = {};
 
+        if (this.status.toUpperCase() === "APPROVED") {
         truckObject.latitude = this.latitude;
         truckObject.longitude= this.longitude;
         truckObject.applicant = this.applicant;
         truckObject.address = this.address;
+
         parsedTruckData.push(truckObject);
+      }
       });
 
       return parsedTruckData;
