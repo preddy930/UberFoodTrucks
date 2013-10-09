@@ -25,13 +25,13 @@ http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/populat
 the server to refresh the in-memory cache, which stores the raw JSON response from the SF Data api.
 
 Client:<BR>
-The client is composed of a JQuery + Backbone.js architecture. In order to retrieve the food truck info from the server,<BR>the following URL
-accessed.<BR>
-URL: http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/getinfo
+The client is composed of a JQuery + Backbone.js architecture. In order to retrieve the food truck info from the server, the following URL is
+accessed:<BR>
+http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/getinfo
 
 Bing Maps provides a responsive and versatile presentation layer, and in order to geocode an address, I use Google Geocoding client.
-There is a search bar, located in the top middle of the map that allows users to enter an address which is then geocoded, and the mop
-will then focus on that location.
+There is a search bar, located in the top middle of the map that allows users to enter an address which is then geocoded, and the map
+then zooms to those coordinates.
 
 Alternate Approaches
 ============
