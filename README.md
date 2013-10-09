@@ -42,7 +42,7 @@ the locations of all the superchargers in the United States.
 However, if we were to expand this for a larger dataset, that say covered the entire state of CA, it would be more prudent to have the server
 parse the JSON response, and store the serialized objects in the cache.
 
-This is also my first foray into Bacbone.js, so I'm sure there are some convetions that I might've missed.
+This is also my first foray into Bacbone.js, so I'm sure there are some conventions that I might've missed.
 
 Known Defects
 ============
