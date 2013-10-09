@@ -41,3 +41,9 @@ the locations of all the superchargers in the United States.
 
 However, if we were to expand this for a larger dataset, that say covered the entire state of CA, it would be more prudent to have the server
 parse the JSON response, and store the serialized objects in the cache.
+
+This is also my first foray into Bacbone.js, so I'm sure there are some convetions that I might've missed.
+
+Known Defects
+============
+There is a small issue in which the search bar does not render in the top middle of the page when using Firefox, but works normally in Chrome.
