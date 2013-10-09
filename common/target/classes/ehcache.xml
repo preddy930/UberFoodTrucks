@@ -1,0 +1,4 @@
+<ehcache>
+ <diskStore path="java.io.tmpdir"></diskStore>
+ <cache name="uberCache" maxElementsInMemory="100000" eternal="false" timeToLiveSeconds="200000" overflowToDisk="true" diskPersistent="false"/>
+</ehcache>
