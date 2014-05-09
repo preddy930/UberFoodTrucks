@@ -25,13 +25,13 @@ http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/populat
 the server to refresh the in-memory cache, which stores the raw JSON response from the SF Data api.
 
 Client:<BR>
-The client is composed of a JQuery + Backbone.js architecture. In order to retrieve the food truck info from the server,<BR>the following URL
-accessed.<BR>
-URL: http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/getinfo
+The client is composed of a JQuery + Backbone.js architecture. In order to retrieve the food truck info from the server, the following URL is
+accessed:<BR>
+http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/getinfo
 
 Bing Maps provides a responsive and versatile presentation layer, and in order to geocode an address, I use Google Geocoding client.
-There is a search bar, located in the top middle of the map that allows users to enter an address which is then geocoded, and the mop
-will then focus on that location.
+There is a search bar, located in the top middle of the map that allows users to enter an address which is then geocoded, and the map
+then zooms to those coordinates.
 
 Alternate Approaches
 ============
@@ -42,7 +42,7 @@ the locations of all the superchargers in the United States.
 However, if we were to expand this for a larger dataset, that say covered the entire state of CA, it would be more prudent to have the server
 parse the JSON response, and store the serialized objects in the cache.
 
-This is also my first foray into Bacbone.js, so I'm sure there are some convetions that I might've missed.
+This is also my first foray into Bacbone.js, so I'm sure there are some conventions that I might've missed.
 
 Known Defects
 ============
