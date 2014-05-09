@@ -1,7 +1,7 @@
 var FoodTrucks = Backbone.Collection.extend({
         
   //Specify REST URL
-  url: 'http://ec2-54-200-60-161.us-west-2.compute.amazonaws.com:8080/foodtrucks/getinfo',
+  url: 'http://localhost:8080/foodtrucks/getinfo',
   
   //Parse the response
     parse: function (response) {

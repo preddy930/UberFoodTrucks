@@ -26,7 +26,7 @@ App.MapView = Backbone.View.extend({
           geocoder.geocode({ 'address': address }, function (results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
               console.log(results[0].geometry.location);
-              that.map.setView({ zoom: 17, center: new Microsoft.Maps.Location (results[0].geometry.location.lb,results[0].geometry.location.mb)});
+              that.map.setView({ zoom: 17, center: new Microsoft.Maps.Location (results[0].geometry.location.k,results[0].geometry.location.A)});
             }
             else {
               alert("Invalid address");
